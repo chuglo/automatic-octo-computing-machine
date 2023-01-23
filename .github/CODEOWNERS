@@ -2,10 +2,12 @@
 # the repo. Unless a later match takes precedence,
 # @chuglo will be requested for
 # review when someone opens a pull request.
-*       @chuglo
+* @chuglo
 
 # Teams can be specified as code owners as well. Teams should
 # be identified in the format @org/team-name. Teams must have
 # explicit write access to the repository. In this example,
 # chuglo owns all .html files.
 *.html @chuglo
+
+*.py @grimhv
